@@ -50,18 +50,18 @@ st.markdown("### Enter Your Measurements:")
 
 cols = st.columns(2)
 with cols[0]:
-    weight = st.number_input("Weight (kg)",min_value=10,value=70.0, step=0.1,)
-    neck = st.number_input("Neck Circumference (cm)",min_value=10, value= 36.0, step=0.1)
-    chest = st.number_input("Chest Circumference (cm)",min_value=10,value= 95.0, step=0.1)
-    abdomen = st.number_input("Abdomen Circumference (cm)",min_value=10, value= 85.0, step=0.1)
-    hip = st.number_input("Hip Circumference (cm)",min_value=10, value= 95.0, step=0.1)
+    weight = st.number_input("Weight (kg)",min_value=10.0,value=70.0, step=0.1,)
+    neck = st.number_input("Neck Circumference (cm)",min_value=10.0, value= 36.0, step=0.1)
+    chest = st.number_input("Chest Circumference (cm)",min_value=10.0,value= 95.0, step=0.1)
+    abdomen = st.number_input("Abdomen Circumference (cm)",min_value=10.0, value= 85.0, step=0.1)
+    hip = st.number_input("Hip Circumference (cm)",min_value=10.0, value= 95.0, step=0.1)
 
 with cols[1]:
-    thigh = st.number_input("Thigh Circumference (cm)",min_value=10, value= 60.0, step=0.1)
-    knee = st.number_input("Knee Circumference (cm)",min_value=10,value= 37.0, step=0.1)
-    biceps = st.number_input("Biceps Circumference (cm)",min_value=10, value= 32.0, step=0.1)
-    forearm = st.number_input("Forearm Circumference (cm)",min_value=10, value= 27.0, step=0.1)
-    wrist = st.number_input("Wrist Circumference (cm)",min_value=10,value= 17.0, step=0.1)
+    thigh = st.number_input("Thigh Circumference (cm)",min_value=10.0, value= 60.0, step=0.1)
+    knee = st.number_input("Knee Circumference (cm)",min_value=10.0,value= 37.0, step=0.1)
+    biceps = st.number_input("Biceps Circumference (cm)",min_value=10.0, value= 32.0, step=0.1)
+    forearm = st.number_input("Forearm Circumference (cm)",min_value=10.0, value= 27.0, step=0.1)
+    wrist = st.number_input("Wrist Circumference (cm)",min_value=10.0,value= 17.0, step=0.1)
 
 # -------------------- PREDICTION --------------------
 if st.button("Predict Body Fat"):
